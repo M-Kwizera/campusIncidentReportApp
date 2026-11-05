@@ -1,0 +1,1 @@
+ C:\\Users\\HP\\Desktop\\maxime\ formative\ 2\\.dart_tool\\flutter_build\\59c0da22a270d6289dd8a817a4df6586\\native_assets.json: 
