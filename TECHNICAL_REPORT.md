@@ -1,6 +1,6 @@
 # Technical Report: Campus Incident Reporting App
 
-**Author**: [KWIZERA Maximr]
+**Author**: [KWIZERA Maxime]
 **Date**: November 4, 2026
 **Course**: Mobile App Dev
 
