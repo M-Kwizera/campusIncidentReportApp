@@ -1,8 +1,8 @@
 # Technical Report: Campus Incident Reporting App
 
-**Author**: [Your Name]
+**Author**: [KWIZERA Maximr]
 **Date**: November 4, 2026
-**Course**: Individual Assignment 2
+**Course**: Mobile App Dev
 
 ---
 
@@ -473,13 +473,10 @@ The application effectively solves the problem of inefficient campus incident re
 ---
 
 **Appendix A: GitHub Repository**
-- **Repository URL**: [Insert GitHub Link Here]
+- **Repository URL**: []
 - **License**: Educational purposes only
 
 **Appendix B: Demonstration Video**
 - **Video Duration**: 7-10 minutes
 - **Content**: Complete walkthrough of all main workflows
 - **Format**: Embedded in PDF report
-
----
-*Report generated for Individual Assignment 2*
