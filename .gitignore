@@ -1,35 +1,128 @@
-# Gradle files
-.gradle/
-build/
-.kotlin/
+# ==============================================================================
+# SENSITIVE KEYS, CREDENTIALS & ENVIRONMENT VARIABLES (DO NOT PUSH TO GITHUB)
+# ==============================================================================
+*.env
+*.env.*
+.env
+.env.*
+secrets.json
+config.json
+credentials.json
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Firebase Configurations & Generated Options (Contains API keys & Project credentials)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+ios/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+macos/GoogleService-Info.plist
+lib/firebase_options.dart
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
+# Android Keystores & Local Settings
+android/local.properties
+android/key.properties
 *.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.crt
+*.der
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# ==============================================================================
+# FLUTTER / DART BUILD ARTIFACTS & DEPENDENCIES
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+.widget_preview/
 
-# Android Profiling
-*.hprof
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ==============================================================================
+# PLATFORM SPECIFIC BUILD ARTIFACTS
+# ==============================================================================
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/build
+/android/build
+/android/.gradle
+/android/.cxx
+/android/captures
+*.apk
+*.aab
+*.aar
+
+# iOS / macOS
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flttmp
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/.last_build_id
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Windows & Linux
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Web
+web/build/
+
+# ==============================================================================
+# IDE, SYSTEM & TEMPORARY FILES
+# ==============================================================================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & Temporary Files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+.history
+.atom/
+.build/
+.buildlog/
+.svn/
+.swiftpm/
+migrate_working_dir/
+.artifacts/
